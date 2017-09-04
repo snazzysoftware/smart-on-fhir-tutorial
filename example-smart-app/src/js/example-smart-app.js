@@ -21,6 +21,10 @@
                       }
                     }
                   });
+        
+        var specimens = smart.patient.api.fetchAll({
+                    type: 'Specimen'
+                  });
 
         $.when(pt, obv).fail(onError);
 
