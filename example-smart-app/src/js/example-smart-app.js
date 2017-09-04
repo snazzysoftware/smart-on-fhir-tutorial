@@ -22,7 +22,7 @@
                     }
                   });
         
-        var specimens = smart.patient.api.fetchAll({
+        var specimens = smart.api.fetchAll({
                     type: 'Specimen'
                   });
 
